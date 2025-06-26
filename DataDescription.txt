@@ -1,0 +1,72 @@
+year
+ city_id
+ indu_code：industry code
+ NewlyRegistered_firms_industry ： number of newly registered firms
+_above_5million_firms_industry ：number of new registered enterprises with registered capital exceeding 5 million
+ RCabove_10million_firms_industry:  number of new registered enterprises with registered capital exceeding 10 million
+ RC_above15million_firms_industry :  number of new registered enterprises with registered capital exceeding 15 million
+RC_above20million_firms_industry :  number of new registered enterprises with registered capital exceeding 20 million
+RC_adjust_2011 :the China National Bureau of Statistics changed the statistical standards for industrial enterprises in 2011
+
+poly :  degree of polycentricity in urban spatial structure
+poly-num : the number of urban  centers 
+entre:  natural logarithm of the number of newly registered firms
+ primary_industry_AV :added value of the primary industry 
+secondary_industry_AV :added value of the secondary industry 
+tertiary_industry_AV :added value of the tertiary industry 
+GDP3 :share of tertiary industry value-added in GDP
+pergdp :per capital GDP
+Average_num_employedstaff: average number of  employed staff and workers
+ Gross_wages_employed : total wages of  employed staff and workers
+
+GPBR :general public budget revenue
+GPBE :general public budget expenditure
+YBLFI :Year-end Balance of Loans from Financial Institutions
+lnpergdp : natural logarithm of per capita GDP
+govereve : ratio of general public budget revenue to city GDP
+govexpend : ratio of general public budget expenditure to city GDP
+
+loan ：ratio of year-end loan balance from financial institutions to city GDP
+wage :ratio of gross wages to average number of employed staff
+edu： ratio of education expenditure to city GDP
+TP_at_EOY: total population at the end of the year
+scale: natural logarithm of total population
+ concen1: equals 1 if concentration_degree > median_concen; 0 otherwise
+ poly_2003: degree of polycentricity in 2003
+ poly_2022: degree of polycentricity in 2022
+
+poly-light :polycentricity index based on the Herfindahl index derived from nighttime light data. 
+entre_quality1 : logarithm of the number of new registered enterprises with registered capital exceeding 10 million
+entre_quality2 :logarithm of the number of new registered enterprises with registered capital exceeding 20 million
+entre_2011 : Adjusted entrepreneurship statistics due to changes in industrial enterprise standards by the National Bureau of Statistics in 2011
+slope: slope gradient difference
+SlopeTime : Interaction term of slope and time trend
+elevation : elevation gradient difference
+ElevationTime : Interaction term of elevation and time trend
+treat :Equals 1 if a city transitions from 4 to 5 urban centers; 0 otherwise
+post_treatment: Equals 1 if the observation is after or in the year when the number of centers increased from 4 to 5; 0 otherwise
+ interaction ：Interaction term of treat and post_treatment
+Trans_invest : road_length / city_GDP
+Trans_network :total_transport_length/  cityregion_area
+rok:  degree of capital misallocation  
+allocation : resource allocation efficiency 
+labor_rd : relative distortion coefficient of labor
+price :  average land price  for each city
+lnprice :  natural logarithm of the average land price  for each city
+price_CS :price of rhe commercial and service land
+price_OR: price of the ordinary residential land
+ lnprice_CS ：Natural logarithm of the price of commercial and service land
+
+lnprice_OR :Natural logarithm of the price of ordinary residential land  
+east : Equals 1 if the city is located in eastern China; 0 otherwise  
+
+central:Equals 1 if the city is located in central China; 0 otherwise  
+ 
+west ：Equals 1 if the city is located in western China; 0 otherwise  
+citysize-group ：Equals 1 if scale <= median population; 2 if scale > median population  
+ 
+industry_group:  4 = Other industries; 3 = indu_code 7 (transport, mining, utilities); 2 = indu_code 14 or 19 (government-related industries); 1 = indu_code 2 or 4 (space-constrained industries) 
+
+ basis : road_length / TP_at_EOY
+
+inf:Infrastructure level indicator: 1 if basis > median_basis; 0 otherwise  
